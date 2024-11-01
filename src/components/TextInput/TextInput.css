@@ -1,0 +1,62 @@
+.inputs-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.input-div textarea{
+    background-color: rgb(25, 25, 25);
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.90);
+    resize: vertical;
+    min-height: 70px;
+    max-height: 300px;
+}
+.input-div textarea::placeholder{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+}
+.input-div textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.input-div input{
+    background-color: rgb(25, 25, 25);
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.90);
+    resize: vertical;
+    max-height: 70px;
+}
+.input-div input::placeholder{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+}
+.input-div input:focus{
+    border: none;
+    outline: none;
+}

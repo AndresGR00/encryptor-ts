@@ -1,0 +1,14 @@
+.output-div {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+.output-div p{
+    background-color: rgb(25, 25, 25);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    white-space: pre-line;
+    word-wrap: break-word;
+}

@@ -1,0 +1,33 @@
+.buttons-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttons-div button{
+    padding: 15px;
+    background-color: rgb(85, 85, 85);
+    color: rgba(255, 255, 255, 0.90);
+    border-radius: 10px;
+    border: solid 2px #ffffff00;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 47%;
+}
+
+.buttons-div button:hover{
+    color: rgb(85, 85, 85);
+    border: solid 2px rgb(85, 85, 85);
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+@media screen and (max-width: 760px){
+    .buttons-div{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .buttons-div button{
+        width: 100%;
+    }
+}
